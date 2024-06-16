@@ -13,21 +13,13 @@ public class MainPage {
 
     private WebDriver driver;
 
-    //Логотип страницы
     //Кнопка Заказать вверху страницы
     private By orderUp = By.xpath("//button[@class='Button_Button__ra12g' and text()='Заказать']");
     //Кнопка Статус заказа
     private By orderSatus = By.xpath("//button[text()='Статус заказа']");
-    //Заголовок страницы
-    //Текст под заголовком
-    //Самокат(картинка)
-    //Технические характеристики самоката
-    //Как это работает
-    //Список элементов "Как это работает"
     //Кнопка Заказать внизу страницы
     private By orderDown = By.xpath("//button[contains(@class, 'Button_Middle__1CSJM') and text()='Заказать']");
     //Вопрсы о важном (заголовок)
-    //Список элементов "Вопросы о важном"
     //Кнопка cookie
     private By cookieButton = By.xpath("//button[text()='да все привыкли']");
     private final String questionLocator = "//div[@id='accordion__heading-%s']";
